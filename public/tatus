@@ -1,0 +1,26 @@
+[33mcommit ec5dc1af04f0d201464192b986a1bc0cba9fd76c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 875661a b04a541
+Author: Cryptovaultiq <hollyhub146@gmail.com>
+Date:   Fri Sep 12 13:21:03 2025 +0200
+
+    Merge branch 'main' of https://github.com/Cryptovaultiq/Web3
+    
+    Integrated remote updates with the addition of Page3.jpg to the Web3 project.
+
+[33mcommit 875661ab9cb852359439de5e232ed5caac25c02c[m
+Author: Cryptovaultiq <hollyhub146@gmail.com>
+Date:   Fri Sep 12 13:15:55 2025 +0200
+
+    Add Page3.jpg to Web3 project
+
+[33mcommit b04a541ea54e3a63ffb4f47b7eeb0fad8ce5fc84[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Cryptovaultiq <hollyhub146@gmail.com>
+Date:   Fri Sep 12 11:48:55 2025 +0100
+
+    Update script.js
+
+[33mcommit 2f9ce26e9237b616349a28961ae58bf084ce32f4[m
+Author: Cryptovaultiq <hollyhub146@gmail.com>
+Date:   Fri Sep 12 12:07:40 2025 +0200
+
+    Initial commit of Web3 project
